@@ -115,7 +115,11 @@ class _HomeScreenState extends State<HomeScreen> {
               SensorNode(
                   icon: 'sun.png',
                   label: 'Light',
-                  value: '${data['light'] ? "Yes" : "No"}')
+                  value: '${data['light'] ? "Yes" : "No"}'),
+              SensorNode(
+                  icon: 'sun.png',
+                  label: 'Disease',
+                  value: '${data['disease']}')
             ],
           ),
         ),
